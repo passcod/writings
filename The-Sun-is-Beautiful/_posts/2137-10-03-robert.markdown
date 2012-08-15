@@ -1,0 +1,44 @@
+---
+title: Robert
+layout: index
+---
+
+Year 2137, 3rd November, Greenland station XVII.  
+Dr Robert Charles  
+Journal
+
+This is the first message; the old journal is now completely unusable, at least
+through the machines I've got here. Maybe someone at the institute can do something
+about them. The cause for the failure is unknown but I suspect it has to do with
+the gamma burst I recorded a month ago. I described this burst in previous tapes...
+I guess I've gotta describe it again, now.
+
+Thirty-five days ago, at 2:06:31 am, my instruments recorded an uncharacteristic
+increase in the gamma density in the lower stratosphere. This triggered an alarm
+which woke me and I initially thought of hardware malfunction. After hauling out
+spare equipment, I confirmed the reading and thus ruled out malfunction. I used
+the spare as a second point of measure by transporting it 500 meters away from the
+station, in a general North-North-West direction (which I evaluated later on to
+347.51 degrees GPS).
+
+The gamma density reached 10 times its normal level just before dawn at 7:01 am
+then quickly dropped as the light rose. I left the equipment in place until about
+10 am, when I went to bring back the spare. The walk there must have taken me at
+most 10 minutes; I was a dozen meters away the station's equipment paged me to
+indicate abnormal behaviour, so I decided to use the spare equipment to make the
+readings. The gamma levels were 500 times greater than normal, and rising; they
+reached 734% when the machine died. I was later able to retrieve an internal
+measurement which placed the gamma density at around 10,000%, which confirmed my
+suspicions.
+
+The equipment being dead and probably impossible to fix, I left it there and made
+my way back to the station. The doors wouldn't open to the remote, so I had to
+open them manually. I discovered that all of my equipment within was fried hence
+I assessed the situation to be too dangerous to continue my readings and locked
+myself inside the Faraday-Johns chamber. The emergency equipment there still
+functions, so I assumed the gamma burst had not breached the chamber. I quarantined
+myself off from the outside world for approximately 40 hours during which time
+I conjectured an explanation for the gamma burst: the only plausible one still
+scares me.
+
+A 6th-generation atomic has been triggered.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>{{ page.title }} - The Sun is Beautiful</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">The Sun is Beautiful</a></h1>
+    </header>
+    <nav>
+      {% include toc %}
+    </nav>
+    <div id="content">
+      <article>
+        {{ content }}
+      </article>
+    </div>
+    <footer class="clearfix">
+      {% include footer %}
+    </footer>
+  <body>
+</html>

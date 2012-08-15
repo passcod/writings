@@ -1,0 +1,64 @@
+---
+title: Abhi
+layout: index
+---
+
+Hey sis,
+
+I've fixed a few typos here and there, but only in comments! Your spelling
+hasn't improved, huh? I really miss having a real wire, this email-proxy
+solution is weird. It's kinda cool to be able to work on something so normal
+right now, I keeps the pressure off.
+
+Anyway, here's the diff:
+
+    diff --git a/jake/build.js b/jake/build.js
+    index cdcb7ec..b135792 100644
+    --- a/jake/build.js
+    +++ b/jake/build.js
+    @@ -1,6 +1,6 @@
+     /*!
+    -  * Jake - A JavaScript make tool for the 22nd cantury
+    -  * Copyright 2136 (c) Abhi "abhijs" Joynahsul <http://abhi.js>
+    +  * Jake - A JavaScript make tool for the 22nd century
+    +  * Copyright 2137 (c) Meia Joynahsul
+       * https://repocentral/jake.git
+       */
+     const Build = function(makefile_path) {
+    @@ -10,7 +10,7 @@ const Build = function(makefile_path) {
+       makefile = Makefile.parse(File.load(makefile_path))
+       
+       makeClosuredFile = function(filename) {
+    -    // "file" lines need to be make'd inside a closure each
+    +    // each "file" line need to be made inside a closure
+         return (new Header(makefile.metadata)).topComment() +
+                "\n\n(function(){\n" +
+                (new CoffeeMaker(filename)).toString() +
+    @@ -18,7 +18,7 @@ const Build = function(makefile_path) {
+       }
+       
+       makeClosuredFiles = function(filenames) {
+    -    // "files" blocks need to be make'd inside a single closure
+    +    // each "files" block need to be made inside a single closure
+         return (new Header(makefile.metadata)).toComment() +
+                "\n\n(function(){\n" +
+                (for (filename in filenames) { (new CoffeeMaker(filename)).toString() }).join("\n\n") +
+    @@ -26,9 +26,9 @@ const Build = function(makefile_path) {
+       }
+       
+       make = function() {
+    -    // Return as arry of strings
+    +    // Return as array of strings
+         return for (instr in makefile.build) {
+    -      // Order doesn't matter, so can use for..in
+    +      // Order doesn't matter, so we can use for..in
+           if (instr.type == "file")
+             makeClosureFile(instr.file)
+           elsif (instr.type == "files")
+
+I've also changed the copyright line: it's your baby now. Take good care of it,
+OK? ;)
+
+Keep me posted,
+
+Abhi
