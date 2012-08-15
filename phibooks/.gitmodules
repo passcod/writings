@@ -1,0 +1,3 @@
+[submodule "views/revenge"]
+	path = views/revenge
+	url = git@github.com:passcod/Revenge.git

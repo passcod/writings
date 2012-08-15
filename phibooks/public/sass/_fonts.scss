@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Novecento';
+  src:  url('fonts/novecento.eot?') format('eot'),
+        url('fonts/novecento.woff') format('woff'),
+        url('fonts/novecento.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Cassia';
+  src:  url('fonts/cassia.eot?') format('eot'),
+        url('fonts/cassia.woff') format('woff'),
+        url('fonts/cassia.ttf')  format('truetype');
+}
+
+$serif: "Cassia", "Georgia", serif;
+$sans: "Novecento", "Helvetica", sans-serif;
